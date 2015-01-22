@@ -35,7 +35,10 @@ var getName = function() {
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
-
+var welcome = function() {
+    var welcome = getName();
+    alert("Welcome " + welcome);
+}
 
 //Next problem
 
