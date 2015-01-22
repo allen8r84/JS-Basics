@@ -58,7 +58,8 @@ var welcome = function() {
 
 
   //Answer Here
-
+//Undefined, 0, Nul, NaN, false, "" (an empty string)
+if(!false);
 
 
 //Next Problem
