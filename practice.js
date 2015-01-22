@@ -48,7 +48,7 @@ var welcome = function() {
 //What is the difference between arguments and parameters?
 
   //Answer Here
-
+//parameter is what a function accepts as data to run, arguement is how that data is used in the function.
 
 //Next problem
 
