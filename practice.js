@@ -22,7 +22,10 @@ var isTyler = function(name) {
 
 
   //Code Here
-
+var getName = function() {
+    var usName = prompt("please insert your name");
+    return usName;
+}
 
 //Next Problem
 
