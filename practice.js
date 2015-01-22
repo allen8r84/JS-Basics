@@ -59,7 +59,9 @@ var welcome = function() {
 
   //Answer Here
 //Undefined, 0, Nul, NaN, false, "" (an empty string)
-if(!false);
+if (0) {
+    return true;
+}
 
 
 //Next Problem
@@ -88,14 +90,13 @@ alert(newMyName);
 
   //Code Here
 var outerFn = function() {
-    var fn = function() {
+     return function() {
         return "Jon"
     }
-    return fn();
 }
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
 var innerFn = outerFn();
 //Now invoke innerFn.
-innerFn;
+innerFn();
